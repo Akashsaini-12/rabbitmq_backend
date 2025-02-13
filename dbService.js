@@ -177,8 +177,8 @@ app.get("/api/chats/conversation", async (req, res) => {
 });
 
 // Start the Consumer
-const consumer = new MessageConsumer();
-consumer.startConsuming();
+// const consumer = new MessageConsumer();
+// consumer.startConsuming();
 
 // Handle Process Termination
 process.on("SIGINT", async () => {
